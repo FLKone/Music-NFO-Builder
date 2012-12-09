@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA91A5F916746D4900018BC7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA91A5F816746D4900018BC7 /* Cocoa.framework */; };
+		CA91A60316746D4A00018BC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA91A60116746D4A00018BC7 /* InfoPlist.strings */; };
+		CA91A60516746D4A00018BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA91A60416746D4A00018BC7 /* main.m */; };
+		CA91A60916746D4A00018BC7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CA91A60716746D4A00018BC7 /* Credits.rtf */; };
+		CA91A60C16746D4A00018BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA91A60B16746D4A00018BC7 /* AppDelegate.m */; };
+		CA91A60F16746D4A00018BC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA91A60D16746D4A00018BC7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA91A5F416746D4900018BC7 /* Music NFO Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music NFO Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA91A5F816746D4900018BC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA91A5FB16746D4900018BC7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA91A5FC16746D4900018BC7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA91A5FD16746D4900018BC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA91A60016746D4A00018BC7 /* Music NFO Builder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Music NFO Builder-Info.plist"; sourceTree = "<group>"; };
+		CA91A60216746D4A00018BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA91A60416746D4A00018BC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA91A60616746D4A00018BC7 /* Music NFO Builder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Music NFO Builder-Prefix.pch"; sourceTree = "<group>"; };
+		CA91A60816746D4A00018BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CA91A60A16746D4A00018BC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA91A60B16746D4A00018BC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA91A60E16746D4A00018BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA91A5F116746D4900018BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA91A5F916746D4900018BC7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA91A5E916746D4900018BC7 = {
+			isa = PBXGroup;
+			children = (
+				CA91A5FE16746D4900018BC7 /* Music NFO Builder */,
+				CA91A5F716746D4900018BC7 /* Frameworks */,
+				CA91A5F516746D4900018BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA91A5F516746D4900018BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA91A5F416746D4900018BC7 /* Music NFO Builder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA91A5F716746D4900018BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA91A5F816746D4900018BC7 /* Cocoa.framework */,
+				CA91A5FA16746D4900018BC7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA91A5FA16746D4900018BC7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA91A5FB16746D4900018BC7 /* AppKit.framework */,
+				CA91A5FC16746D4900018BC7 /* CoreData.framework */,
+				CA91A5FD16746D4900018BC7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA91A5FE16746D4900018BC7 /* Music NFO Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CA91A60A16746D4A00018BC7 /* AppDelegate.h */,
+				CA91A60B16746D4A00018BC7 /* AppDelegate.m */,
+				CA91A60D16746D4A00018BC7 /* MainMenu.xib */,
+				CA91A5FF16746D4A00018BC7 /* Supporting Files */,
+			);
+			path = "Music NFO Builder";
+			sourceTree = "<group>";
+		};
+		CA91A5FF16746D4A00018BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA91A60016746D4A00018BC7 /* Music NFO Builder-Info.plist */,
+				CA91A60116746D4A00018BC7 /* InfoPlist.strings */,
+				CA91A60416746D4A00018BC7 /* main.m */,
+				CA91A60616746D4A00018BC7 /* Music NFO Builder-Prefix.pch */,
+				CA91A60716746D4A00018BC7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA91A5F316746D4900018BC7 /* Music NFO Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA91A61216746D4A00018BC7 /* Build configuration list for PBXNativeTarget "Music NFO Builder" */;
+			buildPhases = (
+				CA91A5F016746D4900018BC7 /* Sources */,
+				CA91A5F116746D4900018BC7 /* Frameworks */,
+				CA91A5F216746D4900018BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music NFO Builder";
+			productName = "Music NFO Builder";
+			productReference = CA91A5F416746D4900018BC7 /* Music NFO Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA91A5EB16746D4900018BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = CA91A5EE16746D4900018BC7 /* Build configuration list for PBXProject "Music NFO Builder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA91A5E916746D4900018BC7;
+			productRefGroup = CA91A5F516746D4900018BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA91A5F316746D4900018BC7 /* Music NFO Builder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA91A5F216746D4900018BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA91A60316746D4A00018BC7 /* InfoPlist.strings in Resources */,
+				CA91A60916746D4A00018BC7 /* Credits.rtf in Resources */,
+				CA91A60F16746D4A00018BC7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA91A5F016746D4900018BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA91A60516746D4A00018BC7 /* main.m in Sources */,
+				CA91A60C16746D4A00018BC7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA91A60116746D4A00018BC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA91A60216746D4A00018BC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA91A60716746D4A00018BC7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA91A60816746D4A00018BC7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CA91A60D16746D4A00018BC7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA91A60E16746D4A00018BC7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA91A61016746D4A00018BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA91A61116746D4A00018BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA91A61316746D4A00018BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Music NFO Builder/Music NFO Builder-Prefix.pch";
+				INFOPLIST_FILE = "Music NFO Builder/Music NFO Builder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA91A61416746D4A00018BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Music NFO Builder/Music NFO Builder-Prefix.pch";
+				INFOPLIST_FILE = "Music NFO Builder/Music NFO Builder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA91A5EE16746D4900018BC7 /* Build configuration list for PBXProject "Music NFO Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA91A61016746D4A00018BC7 /* Debug */,
+				CA91A61116746D4A00018BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA91A61216746D4A00018BC7 /* Build configuration list for PBXNativeTarget "Music NFO Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA91A61316746D4A00018BC7 /* Debug */,
+				CA91A61416746D4A00018BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA91A5EB16746D4900018BC7 /* Project object */;
+}
