@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA0614D416AB9E410040419B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CA0614D316AB9E410040419B /* README.md */; };
+		CA0614D616ABA39C0040419B /* output-template.nfo in Resources */ = {isa = PBXBuildFile; fileRef = CA0614D516ABA39C0040419B /* output-template.nfo */; };
 		CA91A5F916746D4900018BC7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA91A5F816746D4900018BC7 /* Cocoa.framework */; };
 		CA91A60316746D4A00018BC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA91A60116746D4A00018BC7 /* InfoPlist.strings */; };
 		CA91A60516746D4A00018BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA91A60416746D4A00018BC7 /* main.m */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		CA0614D316AB9E410040419B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CA0614D516ABA39C0040419B /* output-template.nfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "output-template.nfo"; sourceTree = "<group>"; };
 		CA91A5F416746D4900018BC7 /* Music NFO Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music NFO Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA91A5F816746D4900018BC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CA91A5FB16746D4900018BC7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -135,6 +137,7 @@
 		CA91A5FF16746D4A00018BC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA0614D516ABA39C0040419B /* output-template.nfo */,
 				CA91A6151674796D00018BC7 /* 57-download@2x.png */,
 				CA91A60016746D4A00018BC7 /* Music NFO Builder-Info.plist */,
 				CA91A60116746D4A00018BC7 /* InfoPlist.strings */,
@@ -240,6 +243,7 @@
 				CA91A60F16746D4A00018BC7 /* MainMenu.xib in Resources */,
 				CA91A6161674796D00018BC7 /* 57-download@2x.png in Resources */,
 				CA0614D416AB9E410040419B /* README.md in Resources */,
+				CA0614D616ABA39C0040419B /* output-template.nfo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
