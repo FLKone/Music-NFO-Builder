@@ -134,7 +134,7 @@
             
             if(meta.count > 0)
             {
-                //NSLog(@"meta %@", [meta description]);
+                NSLog(@"meta %@", [meta description]);
                 //break;
             }
                 
@@ -163,6 +163,7 @@
 
 -(NSDictionary*)read:(NSString *)path
 {
+    NSLog(@"path %@", path);
     
     NSMutableDictionary* dict = [[NSMutableDictionary alloc] init];
     
