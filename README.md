@@ -5,9 +5,9 @@ Simple "Music NFO Builder" for Mac !
 
 Now in alpha/debug/testing version.
 
-Crédits
+Credits
 -------------------------
 
-* Original idea from [Music NFO Builder (win32)](http://nfobuilder.com/music/)
+* Original idea and output format from [Music NFO Builder (win32)](http://nfobuilder.com/music/)
 * [TagLib](https://github.com/taglib/taglib)
 * [TagLib.framework](https://github.com/moonwave99/TagLib.framework)
